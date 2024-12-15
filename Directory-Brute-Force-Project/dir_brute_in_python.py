@@ -45,7 +45,7 @@ def dir_brute(url, wordlist) :
 if __name__ == "__main__":
 
     url = input("Enter Your Target Website-URL:  ").strip()
-    wordlist = r"C:\Users\_akshay_0452\Desktop\cyberSecurityProject\Directory-Brute-Force-Project/common.txt"
+    wordlist = r"path/to/common.txt"
 
 
     dir_brute(url,wordlist)
