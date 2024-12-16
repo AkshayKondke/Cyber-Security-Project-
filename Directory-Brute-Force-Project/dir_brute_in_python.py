@@ -52,7 +52,7 @@ def dir_brute(url, wordlist, max_threads=20) :
 if __name__ == "__main__":
 
     url = input("Enter Your Target Website-URL:  ").strip()
-    wordlist = r"path/to/common.txt"
+    wordlist = r"common.txt"
 
 
     dir_brute(url, wordlist, max_threads=20)
