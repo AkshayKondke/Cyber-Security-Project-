@@ -49,6 +49,7 @@ def dir_brute(url, wordlist, max_threads=20) :
         thread.map(lambda dir: scan_directory(url, dir),directories)
 
 
+
 if __name__ == "__main__":
 
     url = input("Enter Your Target Website-URL:  ").strip()
